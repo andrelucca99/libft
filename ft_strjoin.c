@@ -6,13 +6,13 @@
 /*   By: alucas-e <alucas-e@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/21 15:05:17 by alucas-e          #+#    #+#             */
-/*   Updated: 2024/10/21 16:03:02 by alucas-e         ###   ########.fr       */
+/*   Updated: 2024/10/28 18:07:27 by alucas-e         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char	*ft_strcpy(char *dest, const char *src)
+static char	*ft_strcpy(char *dest, const char *src)
 {
 	int	i;
 

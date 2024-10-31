@@ -35,6 +35,7 @@ SRC = ./ft_isascii.c \
 	  ./ft_striteri.c \
 	  ./ft_itoa.c \
 	  ./ft_strmapi.c \
+	  ./ft_split.c \
 	  ./ft_strlcat.c
 
 OBJ = $(SRC:.c=.o)
